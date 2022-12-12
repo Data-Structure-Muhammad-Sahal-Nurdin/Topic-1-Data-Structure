@@ -25,7 +25,7 @@ class Bag:
         # Tulis kode implementasi Anda di bawah.
         sum_of_num = 0
         for i in range(len(self._isi)):
-            if fata == self._isi[i]:
+            if data == self._isi[i]:
                 sum_of_num += 1
                 return sum_of_num
 
