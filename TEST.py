@@ -13,3 +13,7 @@ nilaiU2 = int(input("Masukkan nilai U2:"))
 # RUMUS ROW MAJOR
 rowMajor = nilaiB + (nilaiI - nilaiL1 ) * (nilaiU2 - nilaiL2 + 1) * nilaiS + (nilaiJ-nilaiL2)*nilaiS
 print("Maka nilai dari row major adalah: ", rowMajor)
+
+# RUMUS COLUMN MAJOR
+columnMajor = nilaiB + (nilaiJ - nilaiL2 ) * (nilaiU1 - nilaiL1 + 1) * nilaiS + (nilaiI-nilaiL1)*nilaiS
+print("Maka nilai dari column major adalah: ", columnMajor)
